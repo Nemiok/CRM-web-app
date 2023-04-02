@@ -1,0 +1,37 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node ./crm-backend/index.js",
+    "client": "webpack serve --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.skillbox.ru/oktai_nematov/frontend-pro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "image-minimizer-webpack-plugin": "^3.8.2",
+    "image-webpack-loader": "^8.1.0",
+    "imagemin": "^8.0.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "style-loader": "^3.3.2",
+    "svgo-loader": "^4.0.0",
+    "ts-loader": "^9.4.2"
+  }
+}

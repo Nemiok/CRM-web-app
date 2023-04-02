@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--   <link rel="stylesheet" href="assets/styles/styles.css"> -->
+  <!-- убрать после завершения разработки -->
+  <!--   <script type="module" src="index.js"></script> -->
+  <!-- убрать после завершения разработки -->
+  <title>CRM</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <img
+        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMjUiIGN5PSIyNSIgcj0iMjUiIGZpbGw9IiM5ODczRkYiLz48cGF0aCBkPSJNMTcuMjYyIDI5LjA4MmMwIC42NjgtLjE1OSAxLjIzMy0uNDc1IDEuNjk2LS4zMS40NTctLjc3Ni44MDYtMS4zOTcgMS4wNDYtLjYyMS4yMzUtMS4zOTUuMzUyLTIuMzIuMzUyLS42ODYgMC0xLjI3NS0uMDQ0LTEuNzY3LS4xMzJhNy4yNyA3LjI3IDAgMCAxLTEuNDc3LS40NFYyOS4zOWMuNTMzLjI0IDEuMTA1LjQ0IDEuNzE0LjU5Ny42MTUuMTUzIDEuMTU0LjIyOSAxLjYxNy4yMjkuNTIyIDAgLjg5NC0uMDc2IDEuMTE2LS4yMjkuMjI5LS4xNTguMzQzLS4zNjMuMzQzLS42MTVhLjcyOS43MjkgMCAwIDAtLjE0LS40NGMtLjA4OC0uMTM0LS4yODItLjI4NC0uNTgtLjQ0OC0uMy0uMTctLjc2OC0uMzktMS40MDctLjY1OS0uNjE1LS4yNTgtMS4xMjItLjUxOC0xLjUyLS43ODItLjM5My0uMjY0LS42ODYtLjU3NC0uODgtLjkzMi0uMTg3LS4zNjMtLjI4LS44MjMtLjI4LTEuMzggMC0uOTA4LjM1MS0xLjU5IDEuMDU0LTIuMDQ3LjcxLS40NjMgMS42NTYtLjY5NSAyLjg0LS42OTUuNjA5IDAgMS4xODkuMDYyIDEuNzQuMTg1YTguNTQgOC41NCAwIDAgMSAxLjcxMy41ODlsLS44MDggMS45MzNhMTMuODcgMTMuODcgMCAwIDAtMS4zOC0uNTE4IDQuMzM2IDQuMzM2IDAgMCAwLTEuMzEtLjIwMmMtLjM5MiAwLS42ODguMDUyLS44ODcuMTU4YS41MTUuNTE1IDAgMCAwLS4zLjQ4M2MwIC4xNTguMDUuMjk5LjE1LjQyMi4xMDYuMTIzLjMwNS4yNi41OTguNDEzLjI5OS4xNDcuNzM1LjMzNyAxLjMxLjU3MS41NTYuMjI5IDEuMDQuNDcgMS40NS43MjEuNDEuMjQ2LjcyNi41NTQuOTQ5LjkyMy4yMjIuMzYzLjMzNC44MzUuMzM0IDEuNDE1Wm00Ljc3Mi0xMC43NTh2Ni4xMTdjMCAuMzctLjAxNC43MzktLjA0NCAxLjEwOC0uMDMuMzY5LS4wNjEuNzM4LS4wOTYgMS4xMDdoLjAzNWMuMTgxLS4yNTguMzY2LS41MTIuNTUzLS43NjQuMTk0LS4yNTIuMzk5LS40OTUuNjE2LS43M2wyLjc1LTIuOTg4aDMuMDI0bC0zLjkwMiA0LjI2MkwyOS4xMSAzMmgtMy4wOTRsLTIuODMtMy45ODEtMS4xNTIuOTIyVjMyaC0yLjY4VjE4LjMyNGgyLjY4Wm0xMS4xNjIgMHYzLjE4MmMwIC4zNjktLjAxMS43MzUtLjAzNSAxLjA5OWE5LjIyMiA5LjIyMiAwIDAgMS0uMDcuODQzaC4xMDVjLjI1OC0uNDA0LjYxLS43NDcgMS4wNTUtMS4wMjguNDQ1LS4yODcgMS4wMjItLjQzIDEuNzMxLS40MyAxLjEwMiAwIDEuOTk1LjQzIDIuNjgxIDEuMjkxLjY4Ni44NjIgMS4wMjggMi4xMjQgMS4wMjggMy43ODggMCAxLjEyLS4xNTggMi4wNi0uNDc0IDIuODIyLS4zMTcuNzU2LS43NTkgMS4zMjctMS4zMjcgMS43MTQtLjU2OS4zOC0xLjIyOC41Ny0xLjk3OC41Ny0uNzIgMC0xLjI4OS0uMTI4LTEuNzA1LS4zODZhMy45MjEgMy45MjEgMCAwIDEtMS4wMS0uODdoLS4xODVMMzIuNTYzIDMyaC0yLjA0N1YxOC4zMjRoMi42OFptMS45MjUgNS44MWMtLjQ2OSAwLS44NC4wOTYtMS4xMTYuMjktLjI3Ni4xOTMtLjQ3OC40ODMtLjYwNy44Ny0uMTIzLjM4Ny0uMTkuODc2LS4yMDIgMS40Njh2LjI5YzAgLjk1NS4xNCAxLjY4Ny40MjIgMi4xOTcuMjgxLjUwNC43OTQuNzU2IDEuNTM4Ljc1Ni41NTEgMCAuOTg4LS4yNTUgMS4zMS0uNzY1LjMyOC0uNTEuNDkyLTEuMjQ1LjQ5Mi0yLjIwNiAwLS45Ni0uMTY0LTEuNjg0LS40OTItMi4xNy0uMzI4LS40ODctLjc3Ni0uNzMtMS4zNDUtLjczWm02LjQwNyA2LjYxYzAtLjU1Mi4xNS0uOTM4LjQ0OS0xLjE2MS4zMDQtLjIyMy42Ny0uMzM0IDEuMDk4LS4zMzQuNDE2IDAgLjc3NC4xMTEgMS4wNzIuMzM0LjMwNS4yMjMuNDU4LjYxLjQ1OCAxLjE2IDAgLjUyNy0uMTUzLjkwOC0uNDU3IDEuMTQzYTEuNjg1IDEuNjg1IDAgMCAxLTEuMDczLjM1MWMtLjQyOCAwLS43OTQtLjExNy0xLjA5OC0uMzUxLS4zLS4yMzUtLjQ0OS0uNjE2LS40NDktMS4xNDNaIiBmaWxsPSIjZmZmIi8+PC9zdmc+"
+        alt="logo">
+      <input type="text" name="search-for-students" id="header__search-box" placeholder="Введите запрос" disabled>
+    </div>
+  </header>
+
+  <main>
+    <div class="main__container">
+      <section class="section-clients_onload">
+        <h1 class="clients__heading">Клиенты</h1>
+        <table class="clients__table_onload">
+          <thead id="clients__table-head_onload">
+            <tr class="clients__table-header_onload">
+              <th class="table-header__cell_onload">ID</th>
+              <th class="table-header__cell_onload">Фамилия Имя Отчество</th>
+              <th class="table-header__cell_onload">Дата и время создания</th>
+              <th class="table-header__cell_onload">Последние изменения</th>
+              <th class="table-header__cell_onload">Контакты</th>
+              <th class="table-header__cell_onload">Действия</th>
+            </tr>
+          </thead>
+          <tbody id="clients__table-body_onload" class="absolute-position">
+          </tbody>
+        </table>
+        <div class="loader__wrapper">
+          <div class="traditional"></div>
+        </div>
+        <button class="btn-primary absolute-position add-client-btn">
+          <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M14.5 8C16.71 8 18.5 6.21 18.5 4C18.5 1.79 16.71 0 14.5 0C12.29 0 10.5 1.79 10.5 4C10.5 6.21 12.29 8 14.5 8ZM5.5 6V3H3.5V6H0.5V8H3.5V11H5.5V8H8.5V6H5.5ZM14.5 10C11.83 10 6.5 11.34 6.5 14V16H22.5V14C22.5 11.34 17.17 10 14.5 10Z"
+              fill="#9873FF" />
+          </svg>
+          Добавить клиента
+        </button>
+      </section>
+    </div>
+  </main>
+</body>
+
+</html>
