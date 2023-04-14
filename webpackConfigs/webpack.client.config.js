@@ -69,7 +69,7 @@ module.exports = (env) => ({
   },
 
   output: {
-    path: path.resolve(__dirname, '../dist/client'),
+    path: path.resolve(__dirname, '../dist/'),
     filename: '[name].js',
   },
 

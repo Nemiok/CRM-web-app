@@ -26,8 +26,8 @@ module.exports = (env) => ({
   },
 
   output: {
-    path: path.resolve(__dirname, '../dist/server'),
-    filename: '[name].js',
+    path: path.resolve(__dirname, '../dist/'),
+    filename: 'server.js',
   },
 
 });
