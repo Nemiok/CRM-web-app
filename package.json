@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "node ./crm-backend/index.js",
-    "client": "webpack serve --mode=development"
+    "server": "node ./crm-backend/src/index.js",
+    "client": "webpack serve --mode=development",
+    "build": "webpack build"
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "tippy.js": "^6.3.7",
     "webpack": "^5.77.0",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.13.2"
